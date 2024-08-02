@@ -8,13 +8,9 @@
     "pages/logs/logs"
   ],
   "window": {
-    "navigationBarBackgroundColor": "#fafafa",
     "backgroundColor": "#3e75ff",
-    "backgroundTextStyle":"light",
-    "navigationBarTextStyle": "black",
-    "navigationStyle": "default",
-    "navigationBarTitleText": "西福斯",
-    "enablePullDownRefresh": false
+    "navigationStyle": "custom",
+    "enablePullDownRefresh": true
   },
   "tabBar": {
     "color": "#333",
@@ -46,6 +42,16 @@
         "selectedIconPath": "static/tabs/user_selected.png"
       }
     ]
+  },
+  "networkTimeout": {
+    "request": 30000,
+    "connectSocket": 30000,
+    "uploadFile": 60000,
+    "downloadFile": 60000
+  },
+  "resolveAlias": {
+    "@static/*": "static/*",
+    "@utils/*": "utils/*"
   },
   "style": "v2",
   "rendererOptions": {

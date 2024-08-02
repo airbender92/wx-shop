@@ -1,5 +1,5 @@
 <!--index.wxml-->
-<navigation-bar title="首页" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+<navigation-bar></navigation-bar>
 <scroll-view class="scrollarea" scroll-y type="list">
   <view class="container">
     <view class="userinfo">
@@ -26,10 +26,3 @@
     </view>
   </view>
 </scroll-view>
-<template name="staffName">
-  <view>
-    FirstName: {{firstName}}, LastName: {{lastName}}
-  </view>
-</template>
-<template is="staffName" data="{{firstName: 'a', lastName: 'b'}}"></template>
-<template is="staffName" data="{{firstName: 'h', lastName: 'i'}}"></template>

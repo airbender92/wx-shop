@@ -3,5 +3,6 @@
   "projectname": "wx-shop",
   "setting": {
     "compileHotReLoad": true
-  }
+  },
+  "libVersion": "3.0.2"
 }

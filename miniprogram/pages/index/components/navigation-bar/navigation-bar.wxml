@@ -1,0 +1,12 @@
+<view class="weui-navigation-bar {{ios ? 'ios' : 'android'}}" 
+  style="{{safeAreaTop}};">
+    <!-- logo文字 -->
+    <view class="logo">
+      <image class="logo-image" src="/static/images/logo.png" />
+      <text class="logo-text">新鲜 - 好用 - 便捷</text>
+    </view>
+    <view class="search">
+      <text class="icon-search">搜索商品</text>
+      <text class="icon-scan"></text>
+    </view>
+</view>
