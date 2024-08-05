@@ -6,7 +6,7 @@
       <text class="logo-text">新鲜 - 好用 - 便捷</text>
     </view>
     <view class="search">
-      <text class="icon-search">搜索商品</text>
-      <text class="icon-scan"></text>
+      <i-icon name='search'>搜索商品</i-icon> 
+      <i-icon name='scan'></i-icon> 
     </view>
 </view>
